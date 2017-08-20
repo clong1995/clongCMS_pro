@@ -1,0 +1,16 @@
+
+/*底部*/
+.footer{
+    margin-top: 30px;
+    background: #333333;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-nav-item{
+    color:#fff;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.copyright{
+    color:#c9c9c9;
+}

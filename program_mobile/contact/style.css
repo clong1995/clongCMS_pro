@@ -1,0 +1,33 @@
+/*联系碎片*/
+.contact {
+    width: 10rem;
+    height: 1.5rem;
+    background-color: #65BCC4;
+    background-size: cover;
+    background-image: url("/program_mobile/contact/img/timg.png");
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    color: #fff;
+}
+
+.contact div {
+    width: 2.5rem;
+    height: 1.5rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact div i {
+    font-size: .7rem;
+    display: block;
+    height: .9rem;
+    margin-top: .1rem;
+    line-height: .9rem;
+}
+.contact div span {
+    display: block;
+    height: .5rem;
+    line-height: .5rem;
+}

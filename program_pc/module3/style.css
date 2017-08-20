@@ -1,0 +1,32 @@
+/*模块3*/
+.module3 {
+    border-top: 6px solid #f13a3a;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.module3-title {
+    margin-top: 10px;
+    color: #f13a3a;
+    font-weight: normal;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.module3-intro {
+    margin: 5px 0 20px 0;
+    height: 45px;
+    color: #7a7a7a;
+}
+
+.module3-item {
+    float: left;
+    width: 280px;
+    height: 240px;
+    margin:5px 23px 20px 0;
+}
+.module3-item-last{
+    margin-right: 0;
+}

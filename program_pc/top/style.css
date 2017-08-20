@@ -1,0 +1,58 @@
+/*头部*/
+.top {
+    height: 47px;
+    margin-top: 40px;
+}
+
+
+
+/*logo模块*/
+.logo {
+    height: 47px;
+    width: 285px;
+    float: left;
+}
+
+.logo-img {
+    width: 123px;
+    height: 47px;
+    float: left;
+}
+
+.logo-title {
+    width: 160px;
+    height: 30px;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.logo-link {
+    font-size: 13px;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+}
+
+/*导航*/
+.top-nav {
+    float: right;
+    width: 500px;
+    height: 47px;
+    line-height: 47px;
+    text-align: right;
+}
+
+.top-nav-item {
+    line-height: 47px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 14px;
+    padding:5px 20px;
+}
+
+.top-nav-item:hover, .top-nav-item-select {
+    background: #c40000;
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+.module1{
+    background: #fff;
+    height: 3rem;
+    padding-top: .5rem;
+}
+.module1 a{
+    display: block;
+    width: 2.5rem;
+    height: 3rem;
+    text-align: center;
+    float: left;
+}
+.module1 i{
+    font-size: .8rem;
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top: .1rem;
+    background: #65BCC4;
+}
+.module1 span {
+    display: block;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .32rem;
+}

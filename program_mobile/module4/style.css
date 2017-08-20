@@ -1,0 +1,51 @@
+.module4{
+    width: 10rem;
+    overflow: hidden;
+    position: relative;
+}
+.module4-title{
+    font-weight: normal;
+    text-align: center;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #65BCC4;
+}
+.module4-title-text{
+    background: #fff;
+    padding: 0 .2rem;
+    font-size: .4rem;
+}
+.module4-title-bg{
+    width: 9.4rem;
+    margin: 0 .3rem;
+    border: none;
+    border-bottom: 1px solid #65BCC4;
+    position: absolute;
+    top: .6rem;
+    z-index: -1;
+}
+.module4-list{
+    width: 10rem;
+    overflow: hidden;
+}
+.module4-list a{
+    display: block;
+    width: 4.5rem;
+    height: 4.9rem;
+    float: left;
+    margin-left: .3rem;
+    font-size: .35rem;
+    text-align: center;
+}
+.module4-list img{
+    width: 4.5rem;
+    height: 3.9rem;
+}
+.module4-more{
+    display: block;
+    width: 10rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    text-align: center;
+}

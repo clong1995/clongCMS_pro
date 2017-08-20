@@ -1,0 +1,41 @@
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.table{
+    border-top: 2px solid #63B9F1;
+}
+.table thead{
+    background: #FAFBFB;
+}
+
+.event,.option{
+    width:120px;
+}
+.textarea{
+    width: 80%;
+    height: 80px;
+}
+.tdLeft{
+    padding:10px;
+}
+.logo,.favicon{
+    margin-right: 20px;
+    float: left;
+}
+.img-del{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    background: red;
+    color: rgb(255, 255, 255);
+    float: left;
+}

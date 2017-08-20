@@ -1,0 +1,50 @@
+.module2 {
+    width: 10rem;
+    height: 3rem;
+    background: #acecf3;
+    position: relative;
+    margin-top: 3rem;
+    padding-top: 3.4rem;
+}
+
+.module2-top{
+    width: 10rem;
+    position: absolute;
+    top: -3rem;
+    overflow: hidden;
+}
+
+.module2-title {
+    font-weight: normal;
+    text-align: center;
+    height:1.2rem;
+    line-height:1.2rem;
+    color: #65BCC4;
+}
+.module2-title-bg{
+    width: 9.4rem;
+    margin: 0 .3rem;
+    border: none;
+    border-bottom: 1px solid #65BCC4;
+    position: absolute;
+    top:-2.4rem;
+    z-index: -1;
+}
+.module2-title-text{
+    background: #fff;
+    padding: 0 .2rem;
+    font-size: .4rem;
+}
+
+.module2-img {
+    width: 9rem;
+    height: 5rem;
+    display: block;
+    margin: 0 auto;
+}
+.module2-text{
+    width: 9rem;
+    margin: 0 auto;
+    font-size: .35rem;
+    text-indent:.7rem
+}

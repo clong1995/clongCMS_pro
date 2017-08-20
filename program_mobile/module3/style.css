@@ -1,0 +1,27 @@
+.module3 {
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    padding-top:.7rem;
+}
+
+.module3 a {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: block;
+    float: left;
+}
+
+.module3 a i{
+    font-size: .9rem;
+    width: 2.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    display: block;
+}
+.module3 a span{
+    display: block;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .32rem;
+}

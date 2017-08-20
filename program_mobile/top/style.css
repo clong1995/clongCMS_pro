@@ -1,0 +1,49 @@
+.top {
+    width: 10rem;
+    height: 1rem;
+    text-align: center;
+    background-color: #65BCC4;
+    background-size: cover;
+    background-image: url("/program_mobile/top/img/top_bg.png");
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+.top-title {
+    height: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+    font-size: .4rem;
+    color: #fff;
+}
+
+.top-menu-btn {
+    position: absolute;
+    right: .5rem;
+    top: .2rem;
+    color: #fff;
+    font-size: .5rem;
+    cursor: pointer;
+}
+
+.top-menu-item-item {
+    width: 4rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .4rem;
+    margin-top: .17rem;
+    color: #fff;
+    float: right;
+    border-radius: .5rem 0 0 .5rem;
+    padding-left: .5rem;
+}
+.top-menu-item-item i{
+    font-size: .4rem;
+    padding-right: .15rem;
+}
+
+/*菜单*/
+.top-menu-item-select {
+    background: #65bcc4;
+}

@@ -1,0 +1,122 @@
+/*居中*/
+.center {
+    width: 1190px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.center:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*表格样式*/
+.table, .tdCenter, .tdLeft, .tdRight {
+    border: 1px solid #f5f5f5;
+}
+
+.tdCenter, .tdLeft, .tdRight {
+    border-top: none;
+    border-left: none;
+    padding: 5px 10px;
+}
+
+.table {
+    border-bottom: none;
+    border-right: none;
+    border-top: 2px solid #63B9F1;
+    width: 100%;
+}
+
+.tdCenter {
+    text-align: center;
+}
+
+.tdLeft {
+    text-align: left;
+}
+
+.tdRight {
+    text-align: right;
+}
+
+.table-title {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.title, .intro {
+    width: 97%;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 2px 10px;
+    margin: 8px 0;
+    color: #555;
+}
+
+.title {
+    height: 25px;
+    line-height: 25px;
+}
+
+.intro {
+    height: 70px;
+    font-size: 12px;
+}
+
+.toolbar {
+    border: 1px solid #ccc;
+}
+
+.article {
+    border: 1px solid #ccc;
+    height: 900px;
+}
+
+.tdRight {
+    font-size: 14px;
+}
+
+/*添加分类 关键词*/
+.add-category, .category-item, .add-keyword, .keyword-item {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 5px;
+    margin-left: 10px;
+
+}
+
+.add-category, .add-keyword {
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.category-item, .keyword-item {
+    border: 1px solid #fafafa;
+    color: #666;
+}
+
+.btn-submit, .btn-draft, .btn-cancel, .btn-category, .btn-keyword {
+    cursor: pointer;
+    padding: 2px 20px;
+    margin: 0 10px 10px 10px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+}
+
+.category-items, .keyword-items {
+    display: inline-block;
+    padding: 5px 0 0 10px;
+    font-size: 14px;
+}
+
+.btn-category, .btn-keyword {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}

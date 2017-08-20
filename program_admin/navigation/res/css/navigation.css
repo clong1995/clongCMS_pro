@@ -1,0 +1,127 @@
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.navigation{
+}
+.navigation-num,.navigation-name,.navigation-model,.navigation-position,.navigation-option{
+    display: block;
+    float: left;
+    text-align: center;
+}
+.navigation-num {
+    width: 10%;
+}
+
+.navigation-name {
+    width: 30%;
+}
+
+.navigation-model {
+    width: 30%;
+}
+.model-selected{
+    padding-right: 5px;
+}
+
+.navigation-position {
+    width: 10%;
+}
+
+.navigation-option {
+    width: 15%;
+}
+.navigation-add-btn{
+    margin-top: 14px;
+}
+
+/*弹窗内*/
+.win-select,.win-opt,.win-btn{
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+    float: left;
+}
+.win-select{
+    text-align: center;
+}
+.win-opt{
+    background: #fafafa;
+    border-bottom: 1px solid #f5f5f5;
+    width: 350px;
+}
+
+
+.win-input-div,.win-modify-select,.win-modify-opt{
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 500px;
+}
+.win-input-div{
+    margin-top: 30px;
+}
+.win-modify-select{
+    width:120px;
+}
+.win-modify-opt{
+    width:400px;
+}
+
+.win-modify-btn{
+    margin-top: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.win-nav-name{
+    margin-right: 30px;
+}
+
+
+
+
+
+.navigation-add{
+    background: #fefefe;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #f5f5f5;
+    border-top: none;
+    margin-bottom: 30px;
+}
+
+.navigation-add-name,.navigation-add-position{
+    margin-top: 10px;
+    text-align: center;
+}
+.navigation-add-name{
+    width: 50%;
+}
+.navigation-add-position{
+    width: 30px;
+}
+
+.navigation-title {
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    background: #FAFBFB;
+    border: 1px solid #f7f7f7;
+    border-bottom: 1px solid #E1E1E1;
+    border-top: 2px solid #63B9F1;
+}
+
+.navigation-item {
+    margin-top: 10px;
+    background: #fefefe;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #f5f5f5;
+}

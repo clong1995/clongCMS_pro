@@ -1,0 +1,70 @@
+/*模块1*/
+.module1 {
+    width: 730px;
+    height: 610px;
+    float: left;
+}
+
+.module1-title {
+    width: 730px;
+    height: 30px;
+}
+
+.module1-title-text {
+    color: #f13a3a;
+    font-weight: normal;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    width: 90px;
+    display: block;
+    float: left;
+}
+
+.module1-hr {
+    width: 640px;
+    background: #f5f5f5;
+    height: 10px;
+    margin: 13px 0 0 0;
+    float: left;
+}
+
+
+.module1-hr-block {
+    background: #f13a3a;
+    height: 10px;
+    width: 8px;
+    border-right: 10px solid #fff;
+}
+
+
+
+
+.module1-article{
+    background: #f5f5f5;
+    width:100%;
+    height:240px;
+    margin-top:30px;
+}
+.module1-article-img{
+    width:300px;
+    height: 240px;
+    margin-right: 15px;
+    float: left;
+}
+.module1-article-title{
+    float: left;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.module1-article-intro{
+    float: left;
+    width: 415px;
+    height: 130px;
+    color: #666666;
+    line-height: 25px;
+    overflow: hidden;
+}

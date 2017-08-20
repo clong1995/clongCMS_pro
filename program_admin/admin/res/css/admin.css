@@ -1,0 +1,35 @@
+body{
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+}
+.control {
+    background: #333333;
+    width: 150px;
+    float: left;
+}
+.control div{
+    color: #54D0DC;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.control a{
+    color:#ffffff;
+    text-align: center;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.control a:hover{
+    color:#cccccc;
+}
+.operate {
+    float: left;
+    border: none;
+}

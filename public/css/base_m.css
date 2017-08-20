@@ -1,0 +1,117 @@
+/*
+* 基础样式表
+* author 成龙哥哥/clong
+* 2016-12-31 12：30：14
+*/
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+body, button, input, select, textarea, a {
+    font: 12px/1.5 Hiragino Sans GB, Microsoft YaHei, tahoma, arial, '\5b8b\4f53', sans-serif;
+    color: #353535;
+    -webkit-font-smoothing: antialiased
+}
+
+body {
+    /*background: #fff;width:100%;*/
+    /*background: red;*/
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+    font-size: 100%
+}
+
+input[type=button] {
+    cursor: pointer;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal
+}
+
+code, kbd, pre, samp {
+    font-family: courier new, courier, monospace
+}
+
+small {
+    font-size: 12px
+}
+
+ol, ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+img {
+    border: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+/*预置样式*/
+
+/*
+.bold {
+    iconfont-size: 1.2em;
+    iconfont-weight: bold;
+    letter-spacing: 1px
+}
+
+.bolder {
+    iconfont-size: 1.4em;
+    iconfont-weight: bold;
+    letter-spacing: 3px
+}
+
+.center {
+    width: 1190px;
+    margin: 0 auto;
+    zoom:1;
+}
+
+.center:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+*/
+.ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+
+
+/*小于1190隐藏指定元素，最佳设计是隐藏元素后宽度刚好为960*/
+@media (max-width: 1190px) {
+    .lt1190 {
+        display: none !important
+    }
+}
